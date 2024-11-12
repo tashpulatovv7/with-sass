@@ -1,0 +1,342 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: DM Sans;
+  color: white;
+}
+
+header {
+  background-image: url(../images/section-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .header-top {
+  display: flex;
+}
+header .header-top .header-logo {
+  margin-top: 28px;
+  margin-left: 28px;
+}
+header .header-top .header-top-middle {
+  display: flex;
+  gap: 62px;
+  margin-left: 64px;
+  margin-top: 48px;
+}
+header .header-top .header-top-middle a {
+  color: white;
+  text-decoration: none;
+}
+header .header-top .header-top-middle a:hover {
+  -webkit-text-decoration: underline #dd2242;
+          text-decoration: underline #dd2242;
+}
+header .header-top .header-top-right {
+  display: flex;
+  gap: 43px;
+  width: 24px;
+  height: 24px;
+  margin-left: 542px;
+  margin-top: 38px;
+}
+header .header-middle h1 {
+  text-transform: uppercase;
+  width: 327.33px;
+  font-size: 80px;
+  font-weight: 900;
+  margin-top: 95px;
+  margin-left: 277px;
+}
+header .header-middle button {
+  width: 171.14px;
+  height: 52px;
+  padding: 20px;
+  border-radius: 211px;
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  margin-left: 277px;
+  margin-top: 21px;
+}
+header .header-middle button:hover {
+  background-color: #c31b3f;
+  cursor: pointer;
+}
+header .header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 141px;
+  margin-left: 200px;
+  width: 1000px;
+  height: 150px;
+  opacity: 0.6px;
+  angle: -180 deg;
+  background-color: #000000;
+  border: 1px solid #000000;
+  opacity: 60%;
+}
+header .header-bottom .bottom-in {
+  margin-left: 61px;
+  margin-right: 61px;
+}
+header .header-bottom .bottom-in span {
+  font-size: 16px;
+  font-weight: 900;
+  color: red;
+}
+header .header-bottom .bottom-in h2 {
+  font-size: 26.41px;
+  font-weight: 700;
+}
+header .header-bottom .bottom-in p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 210.11px;
+  height: 46px;
+}
+
+main .top-main {
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  background-image: url(../images/mauntain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+main img {
+  width: 530.34px;
+  height: 360px;
+  margin-top: 150px;
+  margin-bottom: 86px;
+}
+main h3 {
+  width: 479.5px;
+  height: 119.95px;
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 200px;
+}
+main p {
+  width: 407.58px;
+  height: 83.96px;
+  font-size: 18px;
+  font-weight: 400;
+}
+main button {
+  width: 169px;
+  padding: 20px;
+  border-radius: 211px;
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  margin-top: 32px;
+}
+main button:hover {
+  background-color: #c31b3f;
+  cursor: pointer;
+}
+main .bottom-main {
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  background-image: url(../images/beach.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+main img {
+  width: 530.34px;
+  height: 360px;
+  margin-top: 150px;
+}
+main h3 {
+  width: 479.5px;
+  height: 119.95px;
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 200px;
+}
+main p {
+  width: 407.58px;
+  height: 83.96px;
+  font-size: 18px;
+  font-weight: 400;
+}
+main button {
+  width: 169px;
+  padding: 20px;
+  border-radius: 211px;
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  margin-top: 32px;
+}
+main button:hover {
+  background-color: #c31b3f;
+  cursor: pointer;
+}
+main .back-color {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  background-color: #020c21;
+  opacity: 80%;
+}
+
+.secrets {
+  color: black;
+  display: flex;
+  background-image: url(../images/section-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.secrets h2 {
+  margin-left: 600px;
+  margin-top: 60px;
+}
+.secrets .secrets-imgs {
+  display: flex;
+  gap: 31px;
+  margin-left: 219px;
+  margin-top: 44px;
+  margin-bottom: 933px;
+}
+.secrets img {
+  width: 305px;
+  height: 187px;
+}
+.secrets img:hover {
+  transform: scale(1.1);
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+.numbers {
+  background-color: #020c21;
+}
+.numbers h2 {
+  width: 615.36px;
+  padding-top: 201px;
+  margin-left: 455px;
+  font-size: 60px;
+  font-weight: 700;
+}
+.numbers .number-p {
+  width: 484px;
+  margin-top: 36px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 453px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+.numbers .middle-numbers {
+  display: flex;
+}
+.numbers .in-numbers h4 {
+  font-size: 42.14px;
+  font-weight: 700;
+  color: #dd2242;
+  margin-left: 222px;
+  margin-top: 39px;
+}
+.numbers .in-numbers p {
+  width: 280.61px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 122px;
+  margin-top: 18px;
+  margin-bottom: 224px;
+}
+
+.valleys {
+  color: black;
+  background-color: white;
+  position: relative;
+}
+.valleys h2 {
+  width: 614px;
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: 453px;
+  padding-top: 200px;
+  text-align: center;
+}
+.valleys p {
+  width: 470px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 525px;
+  margin-top: 32px;
+}
+.valleys button {
+  width: 169px;
+  padding: 20px;
+  border-radius: 211px;
+  background-color: #dd2242;
+  color: white;
+  border: none;
+  margin-top: 36px;
+  margin-left: 655px;
+  margin-bottom: 200px;
+}
+.valleys button:hover {
+  background-color: #c31b3f;
+  cursor: pointer;
+}
+.valleys .lines-1 {
+  height: 703px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.valleys .lines-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.life {
+  background-image: url(../images/forest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.life h2 {
+  width: 1056px;
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 141px;
+  padding-left: 292px;
+  text-align: center;
+}
+.life img {
+  width: 856px;
+  height: 494px;
+  margin-top: 67px;
+  margin-bottom: 331px;
+}/*# sourceMappingURL=main.css.map */
