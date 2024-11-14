@@ -13,6 +13,7 @@
 		<title>Document</title>
 	</head>
 	<body>
+		<div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></div>
 		<div class="container">
 			<header>
 				<div class="header-top">
@@ -21,7 +22,7 @@
 						<a href="">destinations</a>
 						<a href="">experiences</a>
 						<a href="">about</a>
-						<a href="">gallery</a>
+						<a href="grid-section">gallery</a>
 					</div>
 					<div class="header-top-right">
 						<img src="./icons/search.svg" alt="" />
@@ -142,6 +143,66 @@
 					</h2>
 				</div>
 			</section>
+			<section class="grid-section">
+				<div>
+					<h2>Photo Gallery</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+					</p>
+				</div>
+				<div class="grid">
+					<img class="grid-item-1" src="./images/grid-1.png" alt="" />
+					<img class="grid-item-2" src="./images/grid-4.png" alt="" />
+					<img class="grid-item-3" src="./images/grid-2.png" alt="" />
+					<img class="grid-item-4" src="./images/grid-5.png" alt="" />
+					<img class="grid-item-5" src="./images/grid-3.png" alt="" />
+					<img class="grid-item-6" src="./images/grid-6.png" alt="" />
+				</div>
+			</section>
+			<footer>
+				<img class="footer-logo" src="./icons/footer-logo.png" alt="" />
+				<div class="footer-text">
+					<a href="">About</a>
+					<a href="">Pricing</a>
+					<a href="">Company</a>
+					<a href="">Blog</a>
+				</div>
+				<div class="social-media">
+					<a href="https://www.facebook.com/">
+						<img class="facebook" src="./icons/facebook.png" alt="" />
+					</a>
+					<a href="https://uz.linkedin.com/">
+						<img class="in" src="./icons/in.png" alt="" />
+					</a>
+					<a href="https://www.google.com/">
+						<img class="google" src="./icons/google.png" alt="" />
+					</a>
+				</div>
+				<button id="backToTop" onclick="scrollToTop()">↑</button>
+			</footer>
 		</div>
+		<script>
+			window.onscroll = function () {
+				toggleBackToTopButton();
+			};
+
+			function toggleBackToTopButton() {
+				const button = document.getElementById('backToTop');
+				if (document.documentElement.scrollTop > 6000) {
+					// 300px pastga tushganda tugma chiqadi
+					button.style.display = 'block';
+				} else {
+					button.style.display = 'none';
+				}
+			}
+
+			function scrollToTop() {
+				window.scrollTo({
+					top: 0,
+					behavior: 'smooth',
+				});
+			}
+		</script>
 	</body>
 </html>
