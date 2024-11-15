@@ -503,16 +503,4 @@ footer #backToTop {
 }
 footer #backToTop:hover {
   background: #a20e27;
-}
-
-@media (max-width: 600px) {
-  body {
-    overflow-x: hidden;
-  }
-  .header-top-middle a {
-    display: none;
-  }
-  .header-middle button {
-    margin-left: 0px;
-  }
 }/*# sourceMappingURL=main.css.map */
