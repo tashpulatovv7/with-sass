@@ -218,21 +218,14 @@ main .back-color {
   margin-left: 600px;
   margin-top: 60px;
 }
-.secrets .secrets-imgs {
-  display: flex;
-  gap: 31px;
-  margin-left: 219px;
+.secrets .carousel-inner {
+  margin-left: 150px;
   margin-top: 44px;
-  margin-bottom: 933px;
+  margin-bottom: 533px;
 }
 .secrets img {
-  width: 305px;
-  height: 187px;
-}
-.secrets img:hover {
-  transform: scale(1.1);
-  transition: all 0.7s ease;
-  cursor: pointer;
+  width: 1000px;
+  height: 487px;
 }
 
 .numbers {
@@ -503,4 +496,25 @@ footer #backToTop {
 }
 footer #backToTop:hover {
   background: #a20e27;
+}
+
+.menu-sec {
+  position: relative;
+}
+.menu-sec .menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #555;
+  width: 25%;
+  position: absolute;
+  top: 20px;
+  z-index: 1000;
+  right: 20px;
+}
+.menu-sec .menu a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
